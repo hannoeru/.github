@@ -13,6 +13,10 @@
   "rangeStrategy": "bump",
   "platformCommit": true,
   "platformAutomerge": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": true
+  },
   "packageRules": [
     {
       "extends": "packages:linters",
