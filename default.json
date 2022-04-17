@@ -20,6 +20,10 @@
   },
   "packageRules": [
     {
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
       "extends": "packages:linters",
       "matchPackageNames": ["@hannoeru/eslint-plugin", "@hannoeru/eslint-config"],
       "groupName": "linters"
