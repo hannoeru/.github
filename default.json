@@ -4,6 +4,7 @@
   "extends": [
     "config:base",
     "schedule:weekly",
+    ":semanticCommits",
     ":rebaseStalePrs",
     ":maintainLockFilesWeekly",
     "docker:enableMajor"
