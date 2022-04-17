@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "packageManager": "pnpm@6.32.8",
+  "license": "MIT",
+  "author": "hannoeru <me@hanlee.co>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannoeru/.github.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/hannoeru/.github/issues"
+  },
+  "homepage": "https://github.com/hannoeru/.github#readme",
+  "devDependencies": {
+    "@hannoeru/eslint-config": "^0.7.6",
+    "eslint": "^8.13.0",
+    "renovate": "^32.25.1",
+    "typescript": "^4.6.3"
+  }
+}

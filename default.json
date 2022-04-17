@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default preset for use with hannoeru's repos",
+  "extends": [
+    "config:base",
+    "schedule:weekly",
+    ":rebaseStalePrs",
+    ":maintainLockFilesWeekly",
+    "docker:enableMajor"
+  ],
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "platformCommit": true,
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "extends": "packages:linters",
+      "matchPackageNames": ["@hannoeru/eslint-plugin", "@hannoeru/eslint-config"],
+      "groupName": "linters"
+    },
+    {
+      "matchPackagePatterns": ["^@storybook/"],
+      "groupName": "storybook"
+    },
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "automerge": true
+    }
+  ]
+}

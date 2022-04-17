@@ -1,2 +1,7 @@
-# renovate-config
-my renovate config
+# .github
+
+preset for files in .github folder
+
+## Includes
+
+- renovate config
