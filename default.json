@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default preset for use with hannoeru's repos",
   "extends": [
+    "group:allNonMajor",
     "config:base",
     "schedule:weekly",
     ":semanticCommits",
