@@ -28,6 +28,10 @@
       "groupName": "react"
     },
     {
+      "matchPackagePatterns": ["^@aws-sdk/", "^aws-cdk-"],
+      "groupName": "aws"
+    },
+    {
       "extends": "packages:linters",
       "matchPackageNames": ["@hannoeru/eslint-plugin", "@hannoeru/eslint-config"],
       "groupName": "linters"
