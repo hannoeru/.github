@@ -29,7 +29,7 @@
       "groupName": "linters"
     },
     {
-      "matchPackagePatterns": ["^@storybook/"],
+      "matchPackagePatterns": ["^@storybook/", "^storybook-"],
       "groupName": "storybook"
     },
     {
