@@ -16,7 +16,8 @@
   "platformAutomerge": true,
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "automerge": true
+    "automerge": true,
+    "platformAutomerge": true
   },
   "packageRules": [
     {
@@ -43,7 +44,8 @@
     {
       "description": "Automerge non-major updates",
       "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true
     }
   ]
 }
