@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@6.32.8",
+  "packageManager": "pnpm@6.32.11",
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
   "repository": {
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@hannoeru/eslint-config": "^0.7.6",
     "eslint": "^8.13.0",
-    "renovate": "^32.26.0",
-    "typescript": "^4.6.3"
+    "renovate": "^32.36.0",
+    "typescript": "^4.6.4"
   }
 }
