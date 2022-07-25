@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@hannoeru/eslint-config': ^0.8.10
   eslint: ^8.20.0
-  renovate: ^32.118.0
+  renovate: ^32.127.0
   typescript: ^4.7.4
 
 devDependencies:
   '@hannoeru/eslint-config': 0.8.10_he2ccbldppg44uulnyq4rwocfa
   eslint: 8.20.0
-  renovate: 32.118.0
+  renovate: 32.127.0
   typescript: 4.7.4
 
 packages:
@@ -2292,8 +2292,8 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
 
-  /commander/9.3.0:
-    resolution: {integrity: sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==}
+  /commander/9.4.0:
+    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==}
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
@@ -2488,8 +2488,8 @@ packages:
     resolution: {integrity: sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==}
     dev: true
 
-  /dequal/2.0.2:
-    resolution: {integrity: sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==}
+  /dequal/2.0.3:
+    resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
     dev: true
 
@@ -5188,8 +5188,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.118.0:
-    resolution: {integrity: sha512-LDI0/AigSDN6Ej5ljhgwlSIMBmjS47PmhMvQJRi3WF843qLTDB+UpmpTydYLrBfpD0UR5yslQft0RKqzzo9BTw==}
+  /renovate/32.127.0:
+    resolution: {integrity: sha512-IGsDSdm0QGRoqoTvlAmQ0Ht8VzmgIPxLXGIa2jswChowVgt8hI6nAtKzCNZLqEmsif5c9p1wsDH5N12JXkdKMA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5213,12 +5213,12 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 9.3.0
+      commander: 9.4.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
       deepmerge: 4.2.2
       delay: 5.0.0
-      dequal: 2.0.2
+      dequal: 2.0.3
       detect-indent: 6.1.0
       editorconfig: 0.15.3
       email-addresses: 5.0.0
@@ -5272,7 +5272,7 @@ packages:
       upath: 2.0.1
       url-join: 4.0.1
       validate-npm-package-name: 4.0.0
-      xmldoc: 1.1.4
+      xmldoc: 1.2.0
     optionalDependencies:
       re2: 1.17.7
     transitivePeerDependencies:
@@ -6099,8 +6099,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /xmldoc/1.1.4:
-    resolution: {integrity: sha512-rQshsBGR5s7pUNENTEncpI2LTCuzicri0DyE4SCV5XmS0q81JS8j1iPijP0Q5c4WLGbKh3W92hlOwY6N9ssW1w==}
+  /xmldoc/1.2.0:
+    resolution: {integrity: sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==}
     dependencies:
       sax: 1.2.4
     dev: true
