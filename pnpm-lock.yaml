@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@hannoeru/eslint-config': ^0.8.10
   eslint: ^8.23.1
-  renovate: ^32.194.5
+  renovate: ^32.198.1
   typescript: ^4.8.3
 
 devDependencies:
   '@hannoeru/eslint-config': 0.8.10_irgkl5vooow2ydyo6aokmferha
   eslint: 8.23.1
-  renovate: 32.194.5
+  renovate: 32.198.1
   typescript: 4.8.3
 
 packages:
@@ -1214,25 +1214,6 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@jamiemagee/osv-offline-db/1.1.4:
-    resolution: {integrity: sha512-xuXQ3PDwtxp1Tg++6SOeDUdrDNOfzO+ESOXkB756mv/v1Izm+Ss/4irO14SIAySU8YC8w2EJ6XXRmanZXLjunA==}
-    dependencies:
-      '@seald-io/nedb': 3.0.0
-    dev: true
-
-  /@jamiemagee/osv-offline/1.2.11:
-    resolution: {integrity: sha512-61UbXKZuhVsmHmjMIoCYdYRjdF5TUiASpWZrLjnPK+MrUFa4orizdgEfVumch87lN0jqfdIx/rsRuEl6KRf5xg==}
-    dependencies:
-      '@jamiemagee/osv-offline-db': 1.1.4
-      '@octokit/rest': 19.0.4
-      adm-zip: 0.5.9
-      fs-extra: 10.0.0
-      got: 11.8.5
-      luxon: 3.0.1
-    transitivePeerDependencies:
-      - encoding
-    dev: true
-
   /@kwsites/file-exists/1.1.1:
     resolution: {integrity: sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==}
     dependencies:
@@ -1481,8 +1462,8 @@ packages:
       '@redis/client': 1.3.0
     dev: true
 
-  /@redis/json/1.0.3_@redis+client@1.3.0:
-    resolution: {integrity: sha512-4X0Qv0BzD9Zlb0edkUoau5c1bInWSICqXAGrpwEltkncUwcxJIGEcVryZhLgb0p/3PkKaLIWkjhHRtLe9yiA7Q==}
+  /@redis/json/1.0.4_@redis+client@1.3.0:
+    resolution: {integrity: sha512-LUZE2Gdrhg0Rx7AN+cZkb1e6HjoSKaeeW8rYnt89Tly13GBI5eP4CwDVr+MY8BAYfCg4/N15OUrtLoona9uSgw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
@@ -1505,6 +1486,25 @@ packages:
       '@redis/client': 1.3.0
     dev: true
 
+  /@renovatebot/osv-offline-db/1.0.1:
+    resolution: {integrity: sha512-GZiFxckbNWW06fb8013LGPdNzp1lGONoUloHTjbC9/SP0AdrfgHZAHXy/o8uKB5nleodk7+siBojv21JPsrcqQ==}
+    dependencies:
+      '@seald-io/nedb': 3.1.0
+    dev: true
+
+  /@renovatebot/osv-offline/1.0.2:
+    resolution: {integrity: sha512-ID2+GSiOlhiuhLqKvZZN0kChKN4t8yUttXp6XnoTs+O4fiimGY2xrRnZVTlrHz8IB6iWkstJ3i8pojJsnZJ8nw==}
+    dependencies:
+      '@octokit/rest': 19.0.4
+      '@renovatebot/osv-offline-db': 1.0.1
+      adm-zip: 0.5.9
+      fs-extra: 10.0.0
+      got: 11.8.5
+      luxon: 3.0.3
+    transitivePeerDependencies:
+      - encoding
+    dev: true
+
   /@renovatebot/pep440/2.1.5:
     resolution: {integrity: sha512-5KqCemtyjR7e98uHadFQUylRpoILYTopJGVaEbs+/WHfB14pJKGPGIkCUN1Zl6fYh+D0Qh7JAXsZ+fRVeSVNZg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
@@ -1520,8 +1520,8 @@ packages:
     resolution: {integrity: sha512-+pYGvPFAk7wUR+ONMOlc6A+LUN4kOCFwyPLjyaeS7wVibADPHWYJNYsNtyIAwjF1AXQkuaXElnIc4XjKt55QZA==}
     dev: true
 
-  /@seald-io/nedb/3.0.0:
-    resolution: {integrity: sha512-nJLQPbosz84BlJdE9qLRbIfQDYpB7PPMi6yGfQbN7YoWsnGef/sIFLDGWcV/rqsOfzJD5wtQYEcA42MIDerFvg==}
+  /@seald-io/nedb/3.1.0:
+    resolution: {integrity: sha512-5G0hCQGJjOelOutvW1l4VD581XMhTPxpj1BUaCWTEM2MPXR9TzIr0MKMnEjnTA5nEKfujPyvVW7iF3etm1/gKQ==}
     dependencies:
       '@seald-io/binary-search-tree': 1.0.2
       localforage: 1.10.0
@@ -3467,17 +3467,17 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /git-up/6.0.0:
-    resolution: {integrity: sha512-6RUFSNd1c/D0xtGnyWN2sxza2bZtZ/EmI9448n6rCZruFwV/ezeEn2fJP7XnUQGwf0RAtd/mmUCbtH6JPYA2SA==}
+  /git-up/7.0.0:
+    resolution: {integrity: sha512-ONdIrbBCFusq1Oy0sC71F5azx8bVkvtZtMJAsv+a6lz5YAmbNnLD6HAB4gptHZVLPR8S2/kVN6Gab7lryq5+lQ==}
     dependencies:
       is-ssh: 1.4.0
-      parse-url: 7.0.2
+      parse-url: 8.1.0
     dev: true
 
-  /git-url-parse/12.0.0:
-    resolution: {integrity: sha512-I6LMWsxV87vysX1WfsoglXsXg6GjQRKq7+Dgiseo+h0skmp5Hp2rzmcEIRQot9CPA+uzU7x1x7jZdqvTFGnB+Q==}
+  /git-url-parse/13.0.0:
+    resolution: {integrity: sha512-X1kozCqKL82dMrCLi4vie9SHDC+QugKskAMs4VUbIkhURKg5yDwxDmf6Ixg73J+/xVgK5TXKhzn8a94nHJHpnA==}
     dependencies:
-      git-up: 6.0.0
+      git-up: 7.0.0
     dev: true
 
   /github-url-from-git/1.5.0:
@@ -4259,11 +4259,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/3.0.1:
-    resolution: {integrity: sha512-hF3kv0e5gwHQZKz4wtm4c+inDtyc7elkanAsBq+fundaCdUBNJB1dHEGUZIM6SfSBUlbVFduPwEtNjFK8wLtcw==}
-    engines: {node: '>=12'}
-    dev: true
-
   /luxon/3.0.3:
     resolution: {integrity: sha512-+EfHWnF+UT7GgTnq5zXg3ldnTKL2zdv7QJgsU5bjjpbH17E3qi/puMhQyJVYuCq+FRkogvB5WB6iVvUr+E4a7w==}
     engines: {node: '>=12'}
@@ -4648,8 +4643,8 @@ packages:
     dev: true
     optional: true
 
-  /node-html-parser/5.4.2:
-    resolution: {integrity: sha512-RaBPP3+51hPne/OolXxcz89iYvQvKOydaqoePpOgXcrOKZhjVIzmpKZz+Hd/RBO2/zN2q6CNJhQzucVz+u3Jyw==}
+  /node-html-parser/6.0.0:
+    resolution: {integrity: sha512-o4vS5Jm7ZdV5WN4/jHmCEVJOpm4exLCeXOcZnNzXi0BGv0AS8FsGwyQ4k0Ujmui1NMQs6qsTy+amjjpr9rmz4Q==}
     dependencies:
       css-select: 4.3.0
       he: 1.2.0
@@ -4920,19 +4915,16 @@ packages:
       xtend: 4.0.2
     dev: true
 
-  /parse-path/5.0.0:
-    resolution: {integrity: sha512-qOpH55/+ZJ4jUu/oLO+ifUKjFPNZGfnPJtzvGzKN/4oLMil5m9OH4VpOj6++9/ytJcfks4kzH2hhi87GL/OU9A==}
+  /parse-path/7.0.0:
+    resolution: {integrity: sha512-Euf9GG8WT9CdqwuWJGdf3RkUcTBArppHABkO7Lm8IzRQp0e2r/kkFnmhu4TSK30Wcu5rVAZLmfPKSBBi9tWFog==}
     dependencies:
       protocols: 2.0.1
     dev: true
 
-  /parse-url/7.0.2:
-    resolution: {integrity: sha512-PqO4Z0eCiQ08Wj6QQmrmp5YTTxpYfONdOEamrtvK63AmzXpcavIVQubGHxOEwiIoDZFb8uDOoQFS0NCcjqIYQg==}
+  /parse-url/8.1.0:
+    resolution: {integrity: sha512-xDvOoLU5XRrcOZvnI6b8zA6n9O9ejNk/GExuz1yBuWUGn9KA97GI6HTs6u02wKara1CeVmZhH+0TZFdWScR89w==}
     dependencies:
-      is-ssh: 1.4.0
-      normalize-url: 6.1.0
-      parse-path: 5.0.0
-      protocols: 2.0.1
+      parse-path: 7.0.0
     dev: true
 
   /path-exists/4.0.0:
@@ -5167,13 +5159,13 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis/4.3.0:
-    resolution: {integrity: sha512-RXRUor0iU1vizu4viHoUyLpe1ZO/RngZp0V9DyXBHTI+7tC7rEz6Wzn4Sv9v0tTJeqGAzdJ+q5YVbNKKQ5hX9A==}
+  /redis/4.3.1:
+    resolution: {integrity: sha512-cM7yFU5CA6zyCF7N/+SSTcSJQSRMEKN0k0Whhu6J7n9mmXRoXugfWDBo5iOzGwABmsWKSwGPTU5J4Bxbl+0mrA==}
     dependencies:
       '@redis/bloom': 1.0.2_@redis+client@1.3.0
       '@redis/client': 1.3.0
       '@redis/graph': 1.0.1_@redis+client@1.3.0
-      '@redis/json': 1.0.3_@redis+client@1.3.0
+      '@redis/json': 1.0.4_@redis+client@1.3.0
       '@redis/search': 1.1.0_@redis+client@1.3.0
       '@redis/time-series': 1.0.3_@redis+client@1.3.0
     dev: true
@@ -5237,8 +5229,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.194.5:
-    resolution: {integrity: sha512-Wa0SPYgu+iJYfRiEb+6E3QOZ9Xna4GrdciU0b8gi7D5egF8aPrI+LET5gorD06cM1rWA6W+bPg5vxPf2s09cyw==}
+  /renovate/32.198.1:
+    resolution: {integrity: sha512-QquGwzLi6WPfA36riRNQm3ao/NJcvwnNrWKW9RM+CMgJrcwp9utOas2T8QoYoUW+efSnh6uBlqt4YapElRfbvg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5249,7 +5241,7 @@ packages:
       '@breejs/later': 4.1.0
       '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 2.2.5
-      '@jamiemagee/osv-offline': 1.2.11
+      '@renovatebot/osv-offline': 1.0.2
       '@renovatebot/pep440': 2.1.5
       '@renovatebot/ruby-semver': 1.1.6
       '@sindresorhus/is': 4.6.0
@@ -5282,7 +5274,7 @@ packages:
       find-packages: 9.0.9
       find-up: 5.0.0
       fs-extra: 10.1.0
-      git-url-parse: 12.0.0
+      git-url-parse: 13.0.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
       good-enough-parser: 1.1.19
@@ -5303,7 +5295,7 @@ packages:
       minimatch: 5.1.0
       moo: 0.5.1
       nanoid: 3.3.4
-      node-html-parser: 5.4.2
+      node-html-parser: 6.0.0
       openpgp: 5.5.0
       p-all: 3.0.0
       p-map: 4.0.0
@@ -5311,7 +5303,7 @@ packages:
       parse-link-header: 2.0.0
       prettier: 2.7.1
       quick-lru: 5.1.1
-      redis: 4.3.0
+      redis: 4.3.1
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.3.1
@@ -5319,7 +5311,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.14.0
+      simple-git: 3.14.1
       slugify: 1.6.5
       traverse: 0.6.6
       tslib: 2.4.0
@@ -5529,8 +5521,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git/3.14.0:
-    resolution: {integrity: sha512-Paad1BkrI7vWhImLybDRYOHnh3WPsHSKXJpmKM+iGjjKNV91XaOdd+yIdZ/gqdzncHDEKYff4k+74oNo1R+U8Q==}
+  /simple-git/3.14.1:
+    resolution: {integrity: sha512-1ThF4PamK9wBORVGMK9HK5si4zoGS2GpRO7tkAFObA4FZv6dKaCVHLQT+8zlgiBm6K2h+wEU9yOaFCu/SR3OyA==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
