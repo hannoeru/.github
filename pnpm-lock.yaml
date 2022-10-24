@@ -1913,7 +1913,7 @@ packages:
   /@types/bunyan/1.8.7:
     resolution: {integrity: sha512-jaNt6xX5poSmXuDAkQrSqx2zkR66OrdRDuVnU8ldvn3k/Ci/7Sf5nooKspQWimDnw337Bzt/yirqSThTjvrHkg==}
     dependencies:
-      '@types/node': 18.11.0
+      '@types/node': 18.11.4
     dev: true
 
   /@types/cacheable-request/6.0.2:
