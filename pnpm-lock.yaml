@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@hannoeru/eslint-config': ^0.8.10
   eslint: ^8.26.0
-  renovate: ^33.2.4
+  renovate: ^34.9.1
   typescript: ^4.8.4
 
 devDependencies:
   '@hannoeru/eslint-config': 0.8.10_wyqvi574yv7oiwfeinomdzmc3m
   eslint: 8.26.0
-  renovate: 33.2.4
+  renovate: 34.9.1
   typescript: 4.8.4
 
 packages:
@@ -1487,8 +1487,8 @@ packages:
       '@octokit/openapi-types': 14.0.0
     dev: true
 
-  /@one-ini/wasm/0.1.0:
-    resolution: {integrity: sha512-cP8ZX+YBxw7SykvcX1NNKSia7ByE+PQTLZcRcEuuHsGJL+Zzuid+LSU1gC6QS1Ll3GTdE7z1/+JR5MYeMQkLBQ==}
+  /@one-ini/wasm/0.1.1:
+    resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
     dev: true
 
   /@opentelemetry/api-metrics/0.32.0:
@@ -3014,12 +3014,12 @@ packages:
     dev: true
     optional: true
 
-  /editorconfig/1.0.0:
-    resolution: {integrity: sha512-kep0YWCniNr1Z/pkavbAQ3yRQRTkaO+xJBiZPWwObnsS8dlo4C14onTf35IpPtR1nM8bqgDF9XVscDY7QwVEng==}
+  /editorconfig/1.0.1:
+    resolution: {integrity: sha512-QKhz+SCEjJ6JpIK4Ve64KpSZs8ZIoIkd2qWbhfrVrwbIh60+uVV70QDh3FYcZrhwJwQ+m9UdrOMSbGe/Osxiew==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@one-ini/wasm': 0.1.0
+      '@one-ini/wasm': 0.1.1
       commander: 9.4.1
       minimatch: 5.1.0
       semver: 7.3.8
@@ -3946,13 +3946,13 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser/1.1.19:
-    resolution: {integrity: sha512-O1sdiXjZocP8gFYi5yMJ1kNGTJi9aV563Pjvo6UwOln3+IE+l6bshHqlKYdEM63Pof1KIqPCPKhNzkDPxNoFpw==}
+  /good-enough-parser/1.1.20:
+    resolution: {integrity: sha512-jjdRPD2sjI+WP6/nyOSuj/oTWbiW3lyms+otTk27M5pCo5nJOXo3cSiwtPfzr1bdfcd2+B3CrZJnMzC7xPFhLg==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
       klona: 2.0.5
-      moo: 0.5.1
+      moo: 0.5.2
     dev: true
 
   /got/11.8.5:
@@ -4921,10 +4921,6 @@ packages:
     dev: true
     optional: true
 
-  /moo/0.5.1:
-    resolution: {integrity: sha512-I1mnb5xn4fO80BH9BLcF0yLypy2UKl+Cb01Fu0hJRkJjlCRtxZMWkTdAtDd5ZqCOxtCkhmRwyI57vWT+1iZ67w==}
-    dev: true
-
   /moo/0.5.2:
     resolution: {integrity: sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==}
     dev: true
@@ -5240,6 +5236,11 @@ packages:
     dependencies:
       eventemitter3: 4.0.7
       p-timeout: 3.2.0
+    dev: true
+
+  /p-throttle/4.1.1:
+    resolution: {integrity: sha512-TuU8Ato+pRTPJoDzYD4s7ocJYcNSEZRvlxoq3hcPI2kZDZ49IQ1Wkj7/gDJc3X7XiEAAvRGtDzdXJI0tC3IL1g==}
+    engines: {node: '>=10'}
     dev: true
 
   /p-timeout/3.2.0:
@@ -5598,8 +5599,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/33.2.4:
-    resolution: {integrity: sha512-+E1WsDAw53d8exsAvPEoy9Zbslf9J0gyx0gjIMquK4IbBxO0ZczOAffk3aQsRnLOC9lBP//t3xVJFNqZmkHSMg==}
+  /renovate/34.9.1:
+    resolution: {integrity: sha512-+PzhREi9hDGIE6Ef/IaV3jWgFPv8RGNZnVVev9OX3jsqEgaZOHqzq6jeu/As5F7aQU3fDk0yb7RwPqX0i35WNg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5647,7 +5648,7 @@ packages:
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
-      editorconfig: 1.0.0
+      editorconfig: 1.0.1
       email-addresses: 5.0.0
       emoji-regex: 10.2.1
       emojibase: 6.1.0
@@ -5659,7 +5660,7 @@ packages:
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.19
+      good-enough-parser: 1.1.20
       got: 11.8.5
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
@@ -5682,6 +5683,7 @@ packages:
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
+      p-throttle: 4.1.1
       parse-link-header: 2.0.0
       prettier: 2.7.1
       quick-lru: 5.1.1
