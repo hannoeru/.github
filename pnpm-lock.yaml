@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@hannoeru/eslint-config': ^0.8.10
   eslint: ^8.26.0
-  renovate: ^34.9.1
+  renovate: ^34.20.0
   typescript: ^4.8.4
 
 devDependencies:
   '@hannoeru/eslint-config': 0.8.10_wyqvi574yv7oiwfeinomdzmc3m
   eslint: 8.26.0
-  renovate: 34.9.1
+  renovate: 34.20.0
   typescript: 4.8.4
 
 packages:
@@ -1295,8 +1295,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iarna/toml/2.2.5:
-    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+  /@iarna/toml/3.0.0:
+    resolution: {integrity: sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==}
     dev: true
 
   /@kwsites/file-exists/1.1.1:
@@ -1357,6 +1357,7 @@ packages:
   /@npmcli/move-file/2.0.1:
     resolution: {integrity: sha512-mJd2Z5TjYWq/ttPLLGqArdtnC74J6bOzg4rMDnN+p1xTacZ2yPRCk2y0oSWQtygLR9YVQXgOcONrwtnk3JupxQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This functionality has been moved to @npmcli/fs
     dependencies:
       mkdirp: 1.0.4
       rimraf: 3.0.2
@@ -1366,6 +1367,7 @@ packages:
   /@npmcli/move-file/3.0.0:
     resolution: {integrity: sha512-mOUBUIXsqAQBfn87vGIjBAve6JmD9PkP9Vdq2SayDqQh2Ol60hnXaBSvT4V6IQiho1otw6SipnVV1fulvOiyKQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    deprecated: This functionality has been moved to @npmcli/fs
     dependencies:
       mkdirp: 1.0.4
       rimraf: 3.0.2
@@ -5599,8 +5601,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.9.1:
-    resolution: {integrity: sha512-+PzhREi9hDGIE6Ef/IaV3jWgFPv8RGNZnVVev9OX3jsqEgaZOHqzq6jeu/As5F7aQU3fDk0yb7RwPqX0i35WNg==}
+  /renovate/34.20.0:
+    resolution: {integrity: sha512-Rt/kGoBRbrIOaOcR24aC+LA795NNrOaDhd12d1fZ/Y76yeTHs3Si2ShVmkeus1K+K+uOykgWZsY0C3VCSO03WQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5612,7 +5614,7 @@ packages:
       '@aws-sdk/client-s3': 3.154.0
       '@breejs/later': 4.1.0
       '@cheap-glitch/mi-cron': 1.0.1
-      '@iarna/toml': 2.2.5
+      '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.2.0
       '@opentelemetry/context-async-hooks': 1.7.0_@opentelemetry+api@1.2.0
       '@opentelemetry/exporter-trace-otlp-http': 0.33.0_@opentelemetry+api@1.2.0
