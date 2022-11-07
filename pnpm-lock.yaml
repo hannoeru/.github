@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@hannoeru/eslint-config': ^0.8.10
-  eslint: ^8.26.0
+  eslint: ^8.27.0
   renovate: ^34.20.0
   typescript: ^4.8.4
 
