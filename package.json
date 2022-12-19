@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/hannoeru/.github#readme",
   "devDependencies": {
-    "@hannoeru/eslint-config": "^0.8.10",
-    "eslint": "^8.29.0",
+    "@hannoeru/eslint-config": "^0.9.4",
+    "eslint": "^8.30.0",
     "renovate": "^34.54.2",
     "typescript": "^4.9.4"
   }
