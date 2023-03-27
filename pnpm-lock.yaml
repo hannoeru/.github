@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@hannoeru/eslint-config': ^0.9.4
   eslint: ^8.36.0
-  renovate: ^35.18.1
+  renovate: ^35.23.3
   typescript: ^4.9.5
 
 devDependencies:
   '@hannoeru/eslint-config': 0.9.4_vgl77cfdswitgr47lm5swmv43m
   eslint: 8.36.0
-  renovate: 35.18.1
+  renovate: 35.23.3
   typescript: 4.9.5
 
 packages:
@@ -3019,8 +3019,8 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: true
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+  /deepmerge/4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -5904,8 +5904,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.18.1:
-    resolution: {integrity: sha512-pY2QGoxoSoX/1ro1AJAFyySktJAovsSYMI5WghM/WeNrZVv1CE9JDw4r0jGrgqs/gF2DDPcpcK26ThB49ecPtw==}
+  /renovate/35.23.3:
+    resolution: {integrity: sha512-K1olygkQjokT7uIfL7FcjM/NmFLwSn/lEyCuCbkIav9YsUbdnuM1JKn7QQ+Lo+H/rxZ66bItNG1scvXDXq0cCw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -5951,7 +5951,7 @@ packages:
       commander: 10.0.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -5998,7 +5998,7 @@ packages:
       redis: 4.6.5
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.2
+      safe-stable-stringify: 2.4.3
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -6156,8 +6156,8 @@ packages:
       regexp-tree: 0.1.24
     dev: true
 
-  /safe-stable-stringify/2.4.2:
-    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
+  /safe-stable-stringify/2.4.3:
+    resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
     engines: {node: '>=10'}
     dev: true
 
