@@ -1,6 +1,7 @@
 {
   "eslint.validate": [
-    "json"
+    "json",
+    "yaml"
   ],
   "eslint.probe": [
     "javascript",
@@ -10,6 +11,7 @@
     "html",
     "vue",
     "markdown",
-    "json"
+    "json",
+    "yaml"
   ]
 }
