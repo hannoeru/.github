@@ -33,8 +33,11 @@
       "groupName": "aws"
     },
     {
-      "extends": "packages:linters",
-      "matchPackageNames": ["@hannoeru/eslint-plugin", "@hannoeru/eslint-config"],
+      "extends": ["packages:linters"],
+      "matchPackageNames": [
+        "@hannoeru/eslint-plugin",
+        "@hannoeru/eslint-config"
+      ],
       "groupName": "linters"
     },
     {
