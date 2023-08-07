@@ -7,13 +7,22 @@
     "schedule:weekly",
     ":semanticCommits",
     ":rebaseStalePrs",
-    ":maintainLockFilesWeekly",
     "docker:enableMajor"
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "extends": [
+      "schedule:weekly"
+    ]
+  },
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "platformCommit": true,
   "platformAutomerge": true,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 30,
+  "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
     "automerge": true,
@@ -46,7 +55,7 @@
     },
     {
       "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
       "automerge": true,
       "platformAutomerge": true
     }
