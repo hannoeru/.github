@@ -19,7 +19,7 @@
   "devDependencies": {
     "@hannoeru/eslint-config": "^0.9.7",
     "eslint": "^8.56.0",
-    "renovate": "^37.172.4",
+    "renovate": "^37.183.0",
     "typescript": "^5.3.3"
   }
 }
