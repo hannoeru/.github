@@ -22,7 +22,7 @@
   "prConcurrentLimit": 30,
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
   "vulnerabilityAlerts": {
-    "labels": ["security"],
+    "labels": ["security"]
   },
   "packageRules": [
     {
@@ -53,6 +53,6 @@
       "description": "Automerge non-major updates",
       "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
       "automerge": true
-    },
+    }
   ]
 }
