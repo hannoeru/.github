@@ -4,20 +4,18 @@
   "extends": [
     "group:allNonMajor",
     "config:base",
-    "schedule:weekly",
+    ":maintainLockFilesWeekly",
+    ":automergeTypes",
     ":semanticCommits",
     ":rebaseStalePrs",
     "docker:enableMajor"
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "extends": [
-      "schedule:weekly"
-    ]
-  },
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
+  "automergeType": "branch",
+  "configMigration": true,
+  "prCreation": "not-pending",
+  "rebaseWhen": "behind-base-branch",
   "platformCommit": true,
   "platformAutomerge": true,
   "prHourlyLimit": 0,
@@ -25,8 +23,6 @@
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "automerge": true,
-    "platformAutomerge": true
   },
   "packageRules": [
     {
@@ -55,9 +51,8 @@
     },
     {
       "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "digest"],
-      "automerge": true,
-      "platformAutomerge": true
-    }
+      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "automerge": true
+    },
   ]
 }
