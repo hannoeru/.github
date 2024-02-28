@@ -29,6 +29,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["github>hannoeru/.github"]
   },
+  "automerge": true,
   "packageRules": [
     {
       "matchDepTypes": ["peerDependencies"],
@@ -53,11 +54,6 @@
     {
       "matchPackagePatterns": ["^@storybook/", "^storybook-"],
       "groupName": "storybook"
-    },
-    {
-      "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
-      "automerge": true
     }
   ]
 }
