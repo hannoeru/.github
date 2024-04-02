@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^8.57.0
     version: 8.57.0
   renovate:
-    specifier: ^37.278.0
-    version: 37.278.0(typanion@3.14.0)
+    specifier: ^37.279.0
+    version: 37.279.0(typanion@3.14.0)
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -6259,8 +6259,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.278.0(typanion@3.14.0):
-    resolution: {integrity: sha512-uzrsNJuesdjqigL0Z9eFd9BaEGmN1e5FZfDOw/A0giBw/Mdi9EKOa3PJ/KaHPXdzL2+budPFkND/zBpc9XCvfA==}
+  /renovate@37.279.0(typanion@3.14.0):
+    resolution: {integrity: sha512-D6u2HTVRUVhEi07h6YNCA83e8Eb1+mihVizVRPD5PdIpTwvOQcUnOboTiqjEuvPDZPAaEqf6ghkaS5idu/KzHw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
