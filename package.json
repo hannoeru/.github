@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@9.15.9",
+  "packageManager": "pnpm@10.6.5",
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
   "repository": {
